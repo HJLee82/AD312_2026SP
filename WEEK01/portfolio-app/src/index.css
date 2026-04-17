@@ -52,6 +52,9 @@
 
 body {
   margin: 0;
+  background-color: #ebebeb;
+  background-image: radial-gradient(#c6c5c5 1px, transparent 1px);
+  background-size: 4px 4px;
 }
 
 #root {

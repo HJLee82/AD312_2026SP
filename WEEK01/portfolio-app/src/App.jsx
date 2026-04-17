@@ -1,7 +1,7 @@
-import Counter from './Counter'
+import Gallery from './Gallery'
 
 function App() {
-  return <Counter />
+  return <Gallery />
 }
 
 export default App
