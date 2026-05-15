@@ -1,0 +1,91 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; }
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  width: 40%;
+  border-right: 1px solid #e0e0e0;
+  padding: 1.5rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right-panel {
+  width: 60%;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.right-panel h1 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.right-panel ul {
+  list-style: none;
+}
+
+.right-panel li {
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.left-panel h2 {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.left-panel input {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.left-panel button {
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.left-panel button:hover {
+  background: #357abd;
+}
+
+.dropdown {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropdown-btn {
+  width: 100%;
+  text-align: left;
+  padding: 0.8rem 1rem;
+  background: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.dropdown-btn:hover {
+  background: #f0f0f0;
+}
