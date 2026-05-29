@@ -13,7 +13,7 @@ Use 3 pointers (prev, current, next_node) based on current:
 2. Flip current.next → prev
 3. Slide prev and current one step forward
 
-![Diagram](images/order.png)
+![Diagram](order.png)
 
 Repeat until current = None, then set head = prev.
 
