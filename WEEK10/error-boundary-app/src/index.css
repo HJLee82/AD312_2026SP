@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+.dashboard h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.widgets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.widget {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.widget h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.widget p {
+  font-size: 14px;
+  color: #666;
+}
+
+.error-fallback {
+  background: #fff5f5;
+  border: 1px solid #feb2b2;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.error-fallback h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c53030;
+  margin-bottom: 8px;
+}
+
+.error-fallback p {
+  font-size: 13px;
+  color: #e53e3e;
+}
+
+.crash-btn {
+  padding: 10px 20px;
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.crash-btn:hover {
+  background-color: #c53030;
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #444;
+}
+
